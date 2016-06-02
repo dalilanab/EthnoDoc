@@ -12,7 +12,7 @@ project installation :
 ```
 * then
 ```
-    $ git clone https://github.com/anhaflint/EthnoDoc.git
+    $ git clone https://github.com/dalilanab/EthnoDoc.git
     $ php composer.phar install
     $ php app/console doctrine:database:create
     $ php app/console doctrine:schema:update --force
@@ -46,6 +46,18 @@ Run Elasticsearch :
 * Start the second elasticsearch node :
 ```
     $ elasticsearch-1.4.3_node2\bin\elasticsearch
+```
+* Start the third elasticsearch node :
+```
+    $ elasticsearch-1.4.3_node3\bin\elasticsearch
+```
+* Start the fourth elasticsearch node :
+```
+    $ elasticsearch-1.4.3_node4\bin\elasticsearch
+```
+* Start the fifth elasticsearch node :
+```
+    $ elasticsearch-1.4.3_node5\bin\elasticsearch
 ```
 * Check that the server is running :
 ```
